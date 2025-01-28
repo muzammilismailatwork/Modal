@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.modalBtn{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+.modal{
+    background-image: url(./assets/modal-imgage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 15rem;
+    max-width: 30rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+.closeBtn{
+    width: 5rem;
+}
+.show{
+    display: flex;
+}
+
